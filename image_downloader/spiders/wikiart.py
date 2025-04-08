@@ -1,9 +1,9 @@
+from math import ceil
 import scrapy
 from scrapy import Request 
 from scrapy.loader import ItemLoader
-from image_downloader.items import ImageDownloaderItem
 import chompjs
-from math import ceil
+from image_downloader.items import ImageDownloaderItem
 
 class WikiartSpider(scrapy.Spider):
     """Scrapy spider for scraping minimalism painting images from WikiArt.org
